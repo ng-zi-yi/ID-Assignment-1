@@ -91,7 +91,7 @@ a.active,a:hover{
 
 .about p{
     font-size: 17px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.52px;
     line-height: 23px;
     color: rgb(10, 31, 25);
 }
@@ -191,7 +191,7 @@ a.active,a:hover{
 
 footer{
     background: rgb(0, 85, 85);
-    padding: 3%;
+    padding: 2%;
     text-align: center;
     color: white;
 }
@@ -299,5 +299,8 @@ footer{
     }
     .skills h2{
         font-size: 40px;
+    }
+    footer{
+        padding: 4%;
     }
 }
