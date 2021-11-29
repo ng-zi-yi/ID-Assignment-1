@@ -12,7 +12,7 @@ body{
 nav{
     height: 80px;
     width: 100%;
-    background: darkcyan;
+    background: rgb(0, 85, 85);
 }
 
 label.nav-title{
@@ -106,6 +106,49 @@ a.active,a:hover{
     flex-direction: row-reverse;
 }
 
+/*education section*/
+.education{
+    background: floralwhite;
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+    margin: auto;
+}
+
+.education h2{
+    font-size: 52px;
+    margin-bottom: 12px;
+    color: rgb(3, 112, 112)
+}
+
+.education h4{
+        font-size: 18px;
+        color: rgb(17, 63, 50)
+}
+
+.education p{
+    font-size: 17px;
+    padding: 10px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+.edu-box{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8%;
+}
+
+.edu-sch{
+    flex-basis: 28%;
+    background: rgb(245, 235, 219);
+    border-radius: 10px;
+    padding: 50px 12px;
+    box-sizing: border-box;
+}
+
+/*responsive*/
 @media (max-width: 1048px){
     label.nav-title{
         font-size: 32px;
@@ -130,7 +173,7 @@ a.active,a:hover{
         position: absolute;
         width: 100%;
         height: 100%;
-        background: darkslategray;
+        background: rgb(38, 61, 61);
         top: 80px;
         left: -100%;
         text-align: center;
@@ -180,5 +223,14 @@ a.active,a:hover{
         padding: 0 15px;
         line-height: 28px;
         text-align: center;
+    }
+
+    .edu-box{
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .edu-sch{
+        margin-bottom: 10%;
     }
 }
