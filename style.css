@@ -122,7 +122,7 @@ a.active,a:hover{
     }
 }
 
-@media (max-width: 909px){
+@media (max-width: 888px){
     .checkbtn{
         display: block;
     }
@@ -153,5 +153,31 @@ a.active,a:hover{
     }
     #check:checked ~ ul{
         left: 0;
+    }
+
+    .about-inner{
+        flex-direction: column;
+    }
+    .about img{
+        height: 270px;
+        width: 243px;
+        margin-bottom: 30px;
+    }
+    .about-text{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about h2{
+        font-size: 40px;
+    }
+    .about h5{
+        font-size: 16px;
+    }
+    .about p{
+        font-size: 15px;
+        padding: 0 15px;
+        line-height: 28px;
     }
 }
