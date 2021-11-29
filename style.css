@@ -144,8 +144,56 @@ a.active,a:hover{
     flex-basis: 28%;
     background: rgb(245, 235, 219);
     border-radius: 10px;
+    padding: 60px 12px;
+    box-sizing: border-box;
+}
+
+/*skills*/
+.skills{
+    background: #b1ddd2;
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.skills h2{
+    font-size: 52px;
+    margin-bottom: 12px;
+    color: rgb(81, 122, 122)
+}
+
+.skills h4{
+    font-size: 20px;
+    color: rgb(17, 63, 50)
+}
+
+.skills ul{
+    font-size: 18px;
+    padding: 15px;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+}
+
+.skill-box{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8%;
+}
+
+.skill-section{
+    flex-basis: 28%;
+    background: #96beb5;;
+    border-radius: 10px;
     padding: 50px 12px;
     box-sizing: border-box;
+}
+
+footer{
+    background: rgb(0, 85, 85);
+    padding: 3%;
+    text-align: center;
+    color: white;
 }
 
 /*responsive*/
@@ -232,8 +280,24 @@ a.active,a:hover{
         flex-direction: column;
         margin-top: 10%;
     }
-
     .edu-sch{
         margin-bottom: 10%;
+    }
+    .education h2{
+        font-size: 40px;
+    }
+    .education p{
+        line-height: 27px;
+    }
+
+    .skill-box{
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .skill-section{
+        margin-bottom: 10%;
+    }
+    .skills h2{
+        font-size: 40px;
     }
 }
