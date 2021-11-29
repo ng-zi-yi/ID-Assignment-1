@@ -59,6 +59,53 @@ a.active,a:hover{
     display: none;
 }
 
+
+/*about me section*/
+.about{
+    background: darkcyan;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.about img{
+    height: 400px;
+    width: 360px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.about h2{
+    font-size: 52px;
+    margin-bottom: 12px;
+    color: white
+}
+
+.about h5{
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about p{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    color: rgb(10, 31, 25);
+}
+
+.about-inner{
+    width: 1230px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
 @media (max-width: 1048px){
     label.nav-title{
         font-size: 32px;
@@ -69,6 +116,9 @@ a.active,a:hover{
     }
     nav a{
         font-size: 17px;
+    }
+    .about-text{
+        width: 400px;
     }
 }
 
@@ -105,5 +155,3 @@ a.active,a:hover{
         left: 0;
     }
 }
-
-/*about me section*/
