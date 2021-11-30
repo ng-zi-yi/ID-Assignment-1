@@ -200,6 +200,47 @@ footer{
     color: white;
 }
 
+
+
+/*PROJECTS PAGE*/
+.projects{
+    background: rgb(245, 235, 219);
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+    margin: auto;
+}
+
+.projects h2{
+    font-size: 52px;
+    margin-bottom: 12px;
+    color: rgb(3, 112, 112)
+}
+
+.proj-box{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.proj-col{
+    flex-basis: 38%;
+    box-sizing: border-box;
+}
+
+.proj-col img{
+    width: 60%;
+    margin: 2%;
+    border-radius: 5px;
+}
+
+.proj-col-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 /*responsive*/
 @media (max-width: 1048px){
     label.nav-title{
@@ -219,17 +260,25 @@ footer{
 
 @media (max-width: 888px){
     nav{
+        height: 65px;
         position: fixed;
     }
+
+    label.nav-title{
+        line-height: 65px;
+        font-size: 30px;
+    }
+
     .checkbtn{
         display: block;
+        line-height: 65px;
     }
     nav ul{
         position: fixed;
         width: 100%;
         height: 100%;
         background: rgb(38, 61, 61);
-        top: 80px;
+        top: 65px;
         left: -100%;
         text-align: center;
         transition: all 0.5s;
@@ -304,48 +353,18 @@ footer{
     .skills h2{
         font-size: 40px;
     }
+
     footer{
         padding: 4%;
     }
+
+    .projects h2{
+        font-size: 35px;
+    }
+    .proj-box{
+        flex-direction: column-reverse;
+    }
+    .proj-col img{
+        width: 60%;
+    }
 }
-
-/*PROJECTS PAGE*/
-
-/*project test*/
-.projects{
-    background: rgb(245, 235, 219);
-    width: 100%;
-    padding: 70px 0;
-    text-align: center;
-    margin: auto;
-}
-
-.projects h2{
-    font-size: 52px;
-    margin-bottom: 12px;
-    color: rgb(3, 112, 112)
-}
-
-.proj-box{
-    margin-top: 3%;
-    display: flex;
-    justify-content: center;
-}
-
-.proj-col{
-    flex-basis: 38%;
-    box-sizing: border-box;
-}
-
-.proj-col img{
-    width: 60%;
-    margin: 2%;
-    border-radius: 5px;
-}
-
-.proj-col-inner{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
