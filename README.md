@@ -6,7 +6,7 @@ This website is to give the site's target audience which are recruiters, a bette
  
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 The website is for recruiters to consider reaching out and hiring me after looking at my portfolio. This design achieves that by spliting the website into 3 parts, "About", "Projects", "Contact". The About Page will let the user first look at a brief introduction about myself, and move on to see my education/where I have studied at, and lastly my skills. This layout will let the recruiters see my competency to see if they my experience is beneficial to them hiring me. After the "About" page the users can use the navigation tool to go to the projects so that the recruiters can see if my works reach the standards they would want to consider hiring me. After that they can navigate to the contact page to reach out to me by sending a message there and also by the links(email and LinkedIn) provided in that page.
-This is the [XD share url](https://xd.adobe.com/view/e2f5a373-5ead-4671-b73a-e09dae80b99a-b7a6/). The wireframe for this is located in the ID-Assignment-1 folder.
+This is the [XD share url](https://xd.adobe.com/view/fdc00e94-1109-4d14-8f50-8c8b9b7ca216-a893/). The wireframe for this is located in the ID-Assignment-1 folder.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
