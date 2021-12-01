@@ -447,4 +447,8 @@ label{
     .cont-inner{
         margin: 0 30px;
     }
+    
+    .approach{
+        font-size: 16px;
+    }
 }
