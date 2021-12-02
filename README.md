@@ -1,6 +1,6 @@
 # ID-Assignment-1
 # Personal Portfolio Site
-This website is to give the site's target audience which are recruiters, a better understanding about myself. It is to tell the recruiters a brief description about myself about what I do and what I have done such as my education, programming languages and software I know. The recruiters will also be able to see the past works/projects I have done before to get a better understanding about my experience.
+This website is to give the site's target audience which are recruiters, a better understanding about myself. It is to give the recruiters a brief description about myself about what I do and what I have done, such as my education, the programming languages and software I know. The recruiters will also be able to see the past works/projects I have done before to get a better understanding about my experience.
 
 ## Design Process
  
@@ -35,7 +35,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - used HTML to input the content of the website
 - [CSS]
     - used CSS to style the website
-- [JavaScript]
+- [JavaScript](https://www.javascript.com/)
     - used JavaScript to add an alert message after submitting a form
 
 
