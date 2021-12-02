@@ -4,7 +4,6 @@ This website is to give the site's target audience which are recruiters, a bette
 
 ## Design Process
  
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 The website is for recruiters to consider reaching out and hiring me after looking at my portfolio. This design achieves that by spliting the website into 3 parts, "About", "Projects", "Contact". The About Page will let the user first look at a brief introduction about myself, and move on to see my education/where I have studied at, and lastly my skills. This layout will let the recruiters see my competency to see if they my experience is beneficial to them hiring me. After the "About" page the users can use the navigation tool to go to the projects so that the recruiters can see if my works reach the standards they would want to consider hiring me. After that they can navigate to the contact page to reach out to me by sending a message there and also by the links(email and LinkedIn) provided in that page.
 This is the [XD share url](https://xd.adobe.com/view/fdc00e94-1109-4d14-8f50-8c8b9b7ca216-a893/). The wireframe for this is located in the ID-Assignment-1 folder.
 
@@ -46,7 +45,7 @@ For any scenarios that have not been automated, test the user stories manually a
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
+-After completing the navigation header, when I opened the menu in mobile view and scrolled down, I discovered that the position of the header was not fixed so there was a gap in the navigation menu in mobile view. I fixed it by setting the position of the navigation header to fixed.
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Credits
