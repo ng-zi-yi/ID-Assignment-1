@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Assignment 1</title>
+    <link rel= "stylesheet" type="text/css" href="normalize.css">
+    <link rel = "stylesheet"  type="text/css" href="style.css" >
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <!--navigation header-->
+    <nav>
+        <input type = "checkbox" id = "check">
+        <label for = "check" class = "checkbtn">
+            <img src="./images/menu icon.png" alt="menu icon">
+        </label>
+        <label a class = "nav-title" href="index.html">Zi Yi</label>
+        <ul>
+            <li><a href='index.html'>ABOUT</a></li>
+            <li><a href='projects.html'>PROJECTS</a></li>
+            <li><a class = "active" href='contact.html'>CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <!--contact section-->
+    <section class="contact">
+        <h2>Contact</h2>
+        <div class="cont-inner">
+            <form onsubmit="return successMsg()">
+                <div class= "cont-part">
+                    <label for "name">Name</label>
+                    <input type = "text" id = "name" required>
+                </div>
+                <div class= "cont-part">
+                    <label for "email">Email</label>
+                    <input type = "email" id = "email" required>
+                </div>
+                <div class= "cont-part">
+                    <label for "message">Message</label>
+                    <textarea id = "message" rows = "10"></textarea>
+                </div>
+                <button type = "submit">SEND MESSAGE</button>
+            </form>
+        </div>
+    </section> 
+
+    <section class = "approach">
+        <h3>Email: <a href = "mailto:s10222211@connect.np.edu.sg" target = "_blank">s10222211@connect.np.edu.sg</a></h3>
+        <br>
+        <h3>LinkedIn: <a href = "https://www.linkedin.com/in/zi-yi-ng-a37357211/" target = "_blank">https://www.linkedin.com/in/zi-yi-ng-a37357211/</a></h3>
+    </section>
+    <!--footer section-->
+    <footer>
+    <p>© 2021 by Ng Zi Yi IT06 ID Assignment 1</p>
+    </footer>
+</body>
+</html> 
